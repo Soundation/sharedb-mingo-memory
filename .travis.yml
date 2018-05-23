@@ -4,6 +4,9 @@ node_js:
   - "8"
   - "9"
   - "10"
-script: "npm run test-cover"
+script:
+  # Install explicitly for tests because sharedb is a peer dependency
+  - "npm i @teamwork/sharedb@^1.1.4"
+  - "npm run test-cover"
 # Send coverage data to Coveralls
 after_script: "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
