@@ -1,10 +1,10 @@
 # ShareDBMingo
 
-  [![NPM Version](https://img.shields.io/npm/v/sharedb-mingo-memory.svg)](https://npmjs.org/package/sharedb-mingo-mongo)
-  [![Build Status](https://travis-ci.org/avital/sharedb-mingo-memory.svg?branch=master)](https://travis-ci.org/avital/sharedb-mingo-memory)
-  [![Coverage Status](https://coveralls.io/repos/github/avital/sharedb-mingo-memory/badge.svg?branch=master)](https://coveralls.io/github/avital/sharedb-mingo-memory?branch=master)
+  [![NPM Version](https://img.shields.io/npm/v/@teamwork/sharedb-mingo-memory.svg)](https://npmjs.org/package/@teamwork/sharedb-mingo-mongo)
+  [![Build Status](https://travis-ci.org/Teamwork/sharedb-mingo-memory.svg?branch=master)](https://travis-ci.org/Teamwork/sharedb-mingo-memory)
+  [![Coverage Status](https://coveralls.io/repos/github/Teamwork/sharedb-mingo-memory/badge.svg?branch=master)](https://coveralls.io/github/Teamwork/sharedb-mingo-memory?branch=master)
 
-A database adapter for [sharedb](https://github.com/share/sharedb)
+A database adapter for [sharedb](https://github.com/teamwork/sharedb)
 that implements a subset of Mongo operations using an in-memory
 database. This adapter can be useful for running application tests
 faster by not requiring a full database. It is also used by tests for
@@ -13,7 +13,7 @@ sharedb itself.
 ## Usage
 
 ```js
-var ShareDBMingo = require('sharedb-mingo-memory');
+var ShareDBMingo = require('@teamwork/sharedb-mingo-memory');
 var db = new ShareDBMingo();
 ```
 

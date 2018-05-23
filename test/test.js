@@ -7,7 +7,7 @@ function create(callback) {
   callback(null, db);
 }
 
-require('sharedb/test/db')({create: create, getQuery: getQuery});
+require('@teamwork/sharedb/test/db')({create: create, getQuery: getQuery});
 
 describe('db', function() {
   beforeEach(function() {

@@ -129,7 +129,7 @@ function extendMemoryDB(MemoryDB) {
   return ShareDBMingo;
 }
 
-ShareDBMingo = extendMemoryDB(require('sharedb').MemoryDB);
+ShareDBMingo = extendMemoryDB(require('@teamwork/sharedb').MemoryDB);
 ShareDBMingo.extendMemoryDB = extendMemoryDB;
 
 module.exports = ShareDBMingo;

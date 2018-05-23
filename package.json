@@ -1,5 +1,5 @@
 {
-  "name": "sharedb-mingo-memory",
+  "name": "@teamwork/sharedb-mingo-memory",
   "version": "1.0.0",
   "description": "In-memory database adapter with MongoDB API for ShareDB",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/share/sharedb-mingo-memory.git"
+    "url": "git://github.com/teamwork/sharedb-mingo-memory.git"
   },
   "devDependencies": {
     "async": "^2.0.0-rc.3",
@@ -21,11 +21,13 @@
   "author": "Avital Oliver",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/share/sharedb-mingo-memory/issues"
+    "url": "https://github.com/teamwork/sharedb-mingo-memory/issues"
   },
-  "homepage": "https://github.com/share/sharedb-mingo-memory#readme",
+  "homepage": "https://github.com/teamwork/sharedb-mingo-memory#readme",
   "dependencies": {
-    "mingo": "^2.2.0",
-    "sharedb": "^1.0.0-beta"
+    "mingo": "^2.2.0"
+  },
+  "peerDependencies": {
+      "@teamwork/sharedb": "^1.1.4"
   }
 }
