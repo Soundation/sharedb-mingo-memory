@@ -1,6 +1,6 @@
 # ShareDBMingo
 
-  [![NPM Version](https://img.shields.io/npm/v/@teamwork/sharedb-mingo-memory.svg)](https://npmjs.org/package/@teamwork/sharedb-mingo-mongo)
+  [![NPM Version](https://img.shields.io/npm/v/@teamwork/sharedb-mingo-memory.svg)](https://npmjs.org/package/@teamwork/sharedb-mingo-memory)
   [![Build Status](https://travis-ci.org/Teamwork/sharedb-mingo-memory.svg?branch=master)](https://travis-ci.org/Teamwork/sharedb-mingo-memory)
   [![Coverage Status](https://coveralls.io/repos/github/Teamwork/sharedb-mingo-memory/badge.svg?branch=master)](https://coveralls.io/github/Teamwork/sharedb-mingo-memory?branch=master)
 
