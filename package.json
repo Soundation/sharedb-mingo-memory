@@ -1,6 +1,6 @@
 {
   "name": "@teamwork/sharedb-mingo-memory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "In-memory database adapter with MongoDB API for ShareDB",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "mingo": "^2.2.0"
   },
   "peerDependencies": {
-      "@teamwork/sharedb": "^1.1.4"
+    "@teamwork/sharedb": "^1.1.4"
   }
 }
