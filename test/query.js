@@ -1,15 +1,15 @@
 var expect = require('expect.js');
 var async = require('async');
 
+var sortSnapshot =function(snapshots) {
+  return snapshots.sort(function (a, b) {
+    return (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0); 
+  });
+}
+
 // Call this function inside a `describe` block. Assumes that
 // `this.db` is set to be a ShareDB instance that supports certain
 // Mongo queries.
-
-var sortSnapshot =function(snapshots) {
-   return snapshots.sort(function (a, b) {
-    return (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0); 
-   });
-}
 
 module.exports = function() {
   it('$count should count documents', function(done) {
