@@ -1,7 +1,7 @@
 var expect = require('expect.js');
 var async = require('async');
 
-var sortSnapshot =function(snapshots) {
+var sortSnapshot = function(snapshots) {
   return snapshots.sort(function (a, b) {
     return (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0); 
   });
