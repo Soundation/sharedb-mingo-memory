@@ -12,12 +12,13 @@
     "url": "git://github.com/teamwork/sharedb-mingo-memory.git"
   },
   "devDependencies": {
+    "@teamwork/ot-rich-text": "^6.3.3",
+    "@teamwork/sharedb": "^2.0.0",
     "async": "^2.0.0-rc.3",
-    "coveralls": "^2.11.8",
+    "coveralls": "^3.0.2",
     "expect.js": "^0.3.1",
     "istanbul": "^0.4.2",
-    "mocha": "^2.3.3",
-    "@teamwork/sharedb": "^1.1.4"
+    "mocha": "^5.2.0"
   },
   "author": "Avital Oliver",
   "license": "MIT",
@@ -26,7 +27,7 @@
   },
   "homepage": "https://github.com/teamwork/sharedb-mingo-memory#readme",
   "dependencies": {
-    "mingo": "^2.2.0"
+    "mingo": "^2.2.2"
   },
   "peerDependencies": {
     "@teamwork/sharedb": "^1.1.4"
