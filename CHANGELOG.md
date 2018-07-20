@@ -1,3 +1,8 @@
-## v1.0-beta
+# v1.0.4
 
-Beginning of changelog.
+## Breaking changes
+
+## Non-breaking changes
+
+- Update all dependencies.
+w
