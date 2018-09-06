@@ -30,6 +30,6 @@
     "mingo": "^2.2.2"
   },
   "peerDependencies": {
-    "@teamwork/sharedb": "^2.0.0"
+    "@teamwork/sharedb": "^3.0.0"
   }
 }
