@@ -1,3 +1,10 @@
+# v3.0.1
+
+## Non-breaking changes
+
+- Fix the version of @teamwork/sharedb in the peerDependencies.
+
+
 # v3.0.0
 
 ## Breking changes
